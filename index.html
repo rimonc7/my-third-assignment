@@ -34,7 +34,7 @@
             <div class="navbar">
                 <div class="navbar-start lg:ml-32">
                     <a class="btn btn-ghost text-4xl font-extrabold"> <i
-                            class="fa-solid fa-arrow-right btn-bg-color text-black rounded-[50%] -rotate-45 p-[2px]"></i>
+                            class="fa-solid fa-arrow-right btn-bg-color text-black rounded-[100%] -rotate-45 p-1"></i>
                         Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -296,8 +296,8 @@
                     </div>
                 </div>
             </div>
-            <div class="lg:flex justify-between gap-6 lg:mx-32">
-                <div class="card max-w-sm shadow-xl my-4 mx-auto bg-white">
+            <div class="lg:flex justify-between gap-6 mx-5 lg:mx-32 mb-10">
+                <div class="card lg:max-w-sm shadow-xl my-4 mx-auto bg-white">
                     <img class="p-6" src="assets/article1.png" alt="" />
                     <div class="card-body">
                         <div class="flex justify-start gap-2 gap-4 text-[#737373]">
@@ -320,7 +320,7 @@
                         <i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black rounded-full -rotate-45 p-2 ml-1"></i>
                     </div>
                 </div>
-                <div class="card max-w-sm shadow-xl my-4 mx-auto bg-white">
+                <div class="card lg:max-w-sm shadow-xl my-4 mx-auto bg-white">
                     <img class="p-6" src="assets/article2.png" alt="" />
                     <div class="card-body">
                         <div class="flex justify-start gap-2 gap-4 text-[#737373]">
@@ -343,7 +343,7 @@
                         <i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black rounded-full -rotate-45 p-2 ml-1"></i>
                     </div>
                 </div>
-                <div class="card max-w-sm shadow-xl my-4 mx-auto bg-white">
+                <div class="card lg:max-w-sm shadow-xl my-4 mx-auto bg-white">
                     <img class="p-6" src="assets/article3.png" alt="" />
                     <div class="card-body">
                         <div class="flex justify-start gap-2 gap-4 text-[#737373]">
@@ -368,13 +368,112 @@
                 </div>
             </div>
         </section>
-        <section class="pt-2 bg-white">
+        <!-- offer section -->
+        <section class="bg-white py-12 ">
+            <div class="hero">
+                <div class="hero-content text-center">
+                    <div>
+                        <button class="btn font-extrabold text-[#494949] bg-[#acef5f6d] rounded-[32px]"> <i
+                                class="fa-solid fa-arrow-right"></i>
+                            Latest Offer</button>
+                        <h1 class="text-5xl font-bold my-3">Check Our Latest Offer</h1>
+                        <p class="py-6 mx-auto max-w-md">
+                            The barn house captivates with its blend of rustic charm and modern sophistication,
+                            featuring
+                            weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- card 1 -->
+            <div class="mx-5 lg:mx-36 bg-base-200 border border-2 border-white rounded-xl mb-5">
+                <div class="card lg:card-side">
+                    <div class="carousel w-full lg:w-1/2">
+                        <div id="slide1" class="carousel-item relative w-full">
+                            <img src="assets/country-latest-offer-item1.jpg" class="w-full rounded-[32px] p-4" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide3" class="btn btn-circle">❮</a>
+                                <a href="#slide2" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide2" class="carousel-item relative w-full">
+                            <img src="assets/country-latest-offer-item2.jpg" class="w-full rounded-[32px] p-4" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide1" class="btn btn-circle">❮</a>
+                                <a href="#slide3" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide3" class="carousel-item relative w-full">
+                            <img src="assets/country-latest-offer-item3.jpg" class="w-full rounded-[32px] p-4" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide2" class="btn btn-circle">❮</a>
+                                <a href="#slide1" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title font-extrabold mb-6">House In The forest With Lovely Views</h2>
+                        <p>This house is for 8 ( up to 12 ) stands on the edge of the escarpment , making the windows
+                            you can see the beautiful panorama of the lake.</p>
+                        <p class="font-bold">The cost of renting - $4600 per week.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary btn-bg-color border-none text-white font-extrabold">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="mx-5 lg:mx-36 bg-base-200 border border-2 border-white rounded-xl">
+                <div class="card lg:card-side">
+                    <div class="carousel w-full lg:w-1/2">
+                        <div id="slide4" class="carousel-item relative w-full">
+                            <img src="assets/country-latest-offer2-item1.jpg" class="w-full rounded-[32px] p-4" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide5" class="btn btn-circle">❮</a>
+                                <a href="#slide6" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide5" class="carousel-item relative w-full">
+                            <img src="assets/country-latest-offer2-item2.jpg" class="w-full rounded-[32px] p-4" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide6" class="btn btn-circle">❮</a>
+                                <a href="#slide4" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide6" class="carousel-item relative w-full">
+                            <img src="assets/country-latest-offer2-item3.jpg" class="w-full rounded-[32px] p-4" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide5" class="btn btn-circle">❮</a>
+                                <a href="#slide4" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title font-extrabold mb-6">House In The forest With Lovely Views</h2>
+                        <p>This house is for 8 ( up to 12 ) stands on the edge of the escarpment , making the windows
+                            you can see the beautiful panorama of the lake.</p>
+                        <p class="font-bold">The cost of renting - $4600 per week.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary btn-bg-color border-none text-white font-extrabold">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- discuss section -->
+        <section class="border-4 border-white ">
             <div class="hero" style="background-image: url(assets/bg.jpg);">
-                <div class="hero mt-14">
+                <div class="hero my-14">
                     <div class="hero-content text-center flex flex-col">
                         <div>
-                            <button class="btn font-extrabold text-[#494949] bg-[#acef5f6d] rounded-[32px]"> <i
-                                    class="fa-solid fa-arrow-right"></i>
+                            <button class="btn font-extrabold text-[#494949] bg-[#acef5f6d] rounded-[32px] border-none">
+                                <i class="fa-solid fa-arrow-right"></i>
                                 Let’s Connect</button>
                             <h1 class="text-5xl font-bold my-3">Let’s Discuss Next Project</h1>
                             <p class="py-6 mx-auto max-w-md">
@@ -389,19 +488,76 @@
                             <input type="email" placeholder="Email Number*" class="input  rounded-[64px] col-span-2" />
                             <input type="text" placeholder="Write your message here"
                                 class="input rounded-[32px] h-[240px] col-span-4" />
-                            <button type="submit"
-                                class="input rounded-[64px] col-span-4 bg-[#ABEF5F] text-black font-extrabold text-xl">
-                                Send Mail
-                                <i class="fa-solid fa-arrow-right bg-black text-white rounded-full -rotate-45 p-1"></i>
-                            </button>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-[#1C1C1C]">
+        <section>
+            <div class="hero">
+                <div class="hero-content text-center">
+                    <div class="max-w-md mx-[100px] lg:mx-0">
+                        <h1 class="text-5xl font-bold my-3 text-white mt-24"> <i
+                                class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black rounded-[100%] p-1 -rotate-45"></i>
+                            Rinterio</h1>
+                        <p class="py-5 text-white">
+                            The barn house captivates with its blend of rustic charm and modern sophistication,
+                            featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex lg:justify-between flex-col align-middle gap-8 lg:flex-row lg:mx-[330px] text-white text-center ">
+                <a href="">Home</a>
+                <a href="">Services</a>
+                <a href="">Portfolio</a>
+                <a href="">Blogs</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="flex justify-center py-11">
+                <button class="input rounded-[32px] bg-[#ABEF5F] text-black font-extrabold text-xl">
+                    Book Consult
+                    <i class="fa-solid fa-arrow-right bg-black text-white rounded-[50%] -rotate-45 p-1"></i>
+                </button>
+            </div>
+        </section>
+        <section class="footer footer-center bg-base-200 text-base-content rounded p-5">
+            <nav>
+                <div class="grid grid-flow-col gap-4">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+            <aside>
+                <p>Copyright © 2024 - All right reserved by Rinterio</p>
+            </aside>
+        </section>
     </footer>
 </body>
 
